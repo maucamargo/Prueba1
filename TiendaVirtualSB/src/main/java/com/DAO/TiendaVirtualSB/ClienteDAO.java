@@ -38,7 +38,7 @@ public class ClienteDAO
    
   } catch (SQLException e) {
             System.out.println(e.getMessage());
-   JOptionPane.showMessageDialog(null, "El Cliente no se pudo Registrar...");
+   JOptionPane.showMessageDialog(null, "El Cliente no se pudo Registrar como así que no se dejo registrar...");
   }
  }
    
